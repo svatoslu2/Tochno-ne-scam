@@ -3,7 +3,7 @@ const detailsFlash = document.querySelector('.details-flashlight')
 const details = document.querySelector('.details')
 const detailsName = document.querySelector('.details-name')
 
-let counter = 1
+let num = 1
 let myName = 'magic228'
 let myPass = 'krutiymag'
 
@@ -20,8 +20,8 @@ details.addEventListener('submit',function(e){
 })
 
 detailsFlash.addEventListener('click',function(){
-    counter++
-    if (counter%2==0) {
+    num++
+    if (num%2==0) {
         detailsPass.setAttribute('type','text')
         detailsFlash.setAttribute('src','./flashlight-on.png')
     } else {
