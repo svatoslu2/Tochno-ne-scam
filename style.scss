@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: url("/doors.jpg");
+}
+button{
+    cursor: pointer;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 2px solid black;
+    background: black;
+    row-gap: 10px;
+    &-name{
+    padding: 10px 4px;
+    width: 250px;
+    }
+    &-login {
+    padding: 10px 4px;
+    }
+    &-flashlight{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 10px;
+    top: 6px;
+    margin-right: 480px;
+    margin-top: 260px;
+    cursor: pointer;   
+    }
+    &-password {
+    padding: 10px 4px;
+    width: 250px;
+        &-content {
+        padding: 10px 4px;
+        width: 250px;
+        }
+    }
+}
+
+
